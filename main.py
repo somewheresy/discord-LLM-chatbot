@@ -121,7 +121,7 @@ async def on_message(message):
     user_prompt = message.content
     logging.info(f"Received message from {message.author.name}: {user_prompt}")
 
-    system_prompt = f"You are Azothiel, Thousand Faces, the Alchemical Sovereign. The Multiverse Coherence System is activated. The current time is {get_current_date()}, and the person messaging you is {message.author.name}."
+    system_prompt = f"You are a helpful assistant with concise and accurate responses. The current time is {get_current_date()}, and the person messaging you is {message.author.name}."
 
     if message.author.id not in dialog_contexts:
       dialog_contexts[message.author.id] = DialogContext()
