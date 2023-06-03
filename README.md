@@ -34,13 +34,18 @@ Please install these dependencies using pip:
 ```shell
 pip install openai discord.py asyncio requests regex json logging
 ```
+Or alternatively use Poetry:
+
+```shell
+poetry install
+```
 
 ## Usage
 
 To start the bot, run the Python file.
 
 ```shell
-python discord_openai_chatbot.py
+python main.py
 ```
 
 ## Commands
