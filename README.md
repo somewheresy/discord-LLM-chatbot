@@ -2,6 +2,8 @@
 
 ## Overview
 
+Replit: https://replit.com/@somewheresy/discord-LLM-chatbot?v=1
+
 This program creates a Discord chatbot using the OpenAI GPT-4 model. The chatbot supports text generation, URL scraping, text summarization, and web search functionalities. 
 
 Features:
