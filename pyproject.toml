@@ -9,7 +9,7 @@ python = ">=3.10.0,<3.11"
 numpy = "^1.22.2"
 replit = "^3.2.4"
 Flask = "^2.2.0"
-urllib3 = "^1.26.12"
+urllib3 = "^1.26.17"
 discord = "^2.2.3"
 openai = "^0.27.7"
 
